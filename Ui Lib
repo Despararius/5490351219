@@ -108,7 +108,7 @@ function create:Win()
     Logo.BorderColor3 = Color3.fromRGB(27, 42, 53)
     Logo.BorderSizePixel = 0
     Logo.Size = UDim2.new(0, 56, 0, 56)
-    Logo.Image = "http://www.roblox.com/asset/?id=9182022354"
+    Logo.Image = "http://www.roblox.com/asset/"
     
     local PageTap = Instance.new("Frame")
     local UIGradient_PageTap = Instance.new("UIGradient")
@@ -247,7 +247,7 @@ function tap:addtap(text)
     ScolPage.BorderSizePixel = 0
     ScolPage.Size = UDim2.new(0, 395, 0, 324)
     ScolPage.ScrollBarThickness = 3
-    ScolPage.ScrollBarImageColor3 =  Color3.fromRGB(255, 0, 125)
+    ScolPage.ScrollBarImageColor3 =  Color3.fromRGB(194, 130, 85)
 
     MainPage.Name = "MainPage"
     MainPage.Parent = ScolPage
@@ -594,7 +594,7 @@ function  ems:Toggle(text,de,callback)
     local ToggleButton = Instance.new("TextButton")
 
     ToggleButton.Parent = ToggleFrame
-    ToggleButton.BackgroundColor3 = Color3.fromRGB( 0, 0, 60)
+    ToggleButton.BackgroundColor3 = Color3.fromRGB(0, 0, 60)
     ToggleButton.BackgroundTransparency = 1
     ToggleButton.AnchorPoint = Vector2.new(0, 0.5)
     ToggleButton.Position = UDim2.new(0.5, 0, 0.5, 0)

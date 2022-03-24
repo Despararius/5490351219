@@ -647,7 +647,7 @@ function  ems:Toggle(text,de,callback)
 
     TextButton_2_Toggle.Parent = ToggleButton2
     TextButton_2_Toggle.BackgroundColor3 = Color3.fromRGB(194, 130, 85)
-    TextButton_2_Toggle.BorderColor3 = Color3.fromRGB(249, 53, 139)
+    TextButton_2_Toggle.BorderColor3 = Color3.fromRGB(194, 130, 85)
     TextButton_2_Toggle.BorderSizePixel = 0
     TextButton_2_Toggle.AnchorPoint = Vector2.new(0.5, 0.5)
     TextButton_2_Toggle.Position = UDim2.new(0.5, 0, 0.5, 0)
